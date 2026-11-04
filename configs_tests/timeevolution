@@ -1,0 +1,28 @@
+# this is a comment followed by an empty line
+
+# config for timeevolution test
+
+# geometry settings
+# -----------------
+N = 20              int     : number of points per dimension
+D = 1               int     : number of dimensions
+
+# hamiltonian parameters
+# ----------------------
+mu = 20             double  : dimensionless mu value
+eps2 = 0.001        double  : dimensionless epsilon^2 value
+
+# evolution parameters
+# --------------------
+tau = 0.1           double  : time step
+
+# algorithm settings
+# ------------------
+integrator = 0      int     : 0 for euler, 1 for crank-nickolson, 2 for strang-splitting
+maxiter = 10000     int     : maximum iterations for conjugate-gradient (only used for integrator = 1)
+precision = 1e-11   double  : precision for conjugate-gradient (only used for integrator = 1)
+
+# other
+# -----
+reps = 10           int     : how many repetitions the test should do
+delta = 1e-10       double  : precision for result comparison

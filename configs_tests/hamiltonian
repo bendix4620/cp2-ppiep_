@@ -1,0 +1,18 @@
+# this is a comment followed by an empty line
+
+# config for hamiltonian test
+
+# geometry settings
+# -----------------
+N = 400             int     : number of points per dimension
+D = 1               int     : number of dimensions
+
+# hamiltonian parameters
+# ----------------------
+mu = 20             double  : dimensionless mu value
+eps2 = 0.001        double  : dimensionless epsilon^2 value
+
+# other
+# -----
+reps = 20           int     : how many repetitions the test should do
+precision = 1e-4    double  : precision for result comparison

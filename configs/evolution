@@ -1,0 +1,35 @@
+# this is a comment followed by an empty line
+
+# config for state evolution calculation
+
+# geometry settings
+# -----------------
+N = 200             int     : number of points per dimension
+D = 1               int     : number of dimensions
+
+# hamiltonian parameters
+# ----------------------
+mu = 20             double  : dimensionless mu value
+eps2 = 0.001        double  : dimensionless epsilon^2 value
+
+# evolution parameters
+# --------------------
+tau = 0.1           double  : time step
+total = 0.1         double  : total time to integrate
+
+# algorithm settings
+# ------------------
+integrator = 1      int     : 0 for euler, 1 for crank-nickolson, 2 for strang-splitting
+maxiter = 100000    int     : maximum iterations for conjugate-gradient and power-method
+precision = 1e-8    double  : precision for conjugate-gradient and power-method
+
+# initial wave (gaussian wavelet)
+# -------------------------------
+center = 0          double  : center of the gaussian (row-major flattened grid)
+width = 10          double  : width of the gaussian
+
+# momentum vector in terms of hbar. Only the first D values will be used
+momentum0 = 5       double  : axis 0 component (x axis)
+momentum1 = 0       double  : axis 1 component (y axis)
+momentum2 = 0       double  : axis 2 component (z axis)
+momentum3 = 0       double  : axis 3 component and so on

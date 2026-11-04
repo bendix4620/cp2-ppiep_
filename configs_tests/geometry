@@ -1,0 +1,8 @@
+# this is a comment followed by an empty line
+
+# config for geometry test
+
+# geometry settings
+# -----------------
+N = 4               int     : number of points per dimension
+D = 1               int     : number of dimensions

@@ -1,0 +1,18 @@
+# this is a comment followed by an empty line
+
+# config for groundstate calculation
+
+# geometry settings
+# -----------------
+N = 4               int     : number of points per dimension
+D = 1               int     : number of dimensions
+
+# hamiltonian parameters
+# ----------------------
+mu = 20             double  : dimensionless mu value
+eps2 = 0.001        double  : dimensionless epsilon^2 value
+
+# algorithm settings
+# ------------------
+maxiter = 10000     int     : maximum iterations for conjugate-gradient and power-method
+precision = 1e-10   double  : precision for conjugate-gradient and power-method

@@ -1,0 +1,12 @@
+# this is a comment followed by an empty line
+
+# config for conjugategradient test
+
+# geometry settings
+# -----------------
+len = 100           int     : number of points
+
+# algorithm settings
+# ------------------
+maxiter = 10000     int     : maximum iterations for conjugate-gradient
+precision = 1e-10   double  : precision for conjugate-gradient

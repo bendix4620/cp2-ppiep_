@@ -1,0 +1,12 @@
+# this is a comment followed by an empty line
+
+# config for powermethod test
+
+# geometry settings
+# -----------------
+len = 4             int     : number of points
+
+# algorithm settings
+# ------------------
+maxiter = 10000     int     : maximum iterations for and power-method
+precision = 1e-9    double  : precision for power-method
